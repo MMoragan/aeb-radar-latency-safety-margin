@@ -1,0 +1,36 @@
+{
+  "title": "Simulation and analysis code for: Perception latency and range-measurement noise in automated emergency braking: A safety-margin and time-to-collision budget for 60-100 km/h operation",
+  "upload_type": "software",
+  "description": "<p>MATLAB R2024b code, Monte Carlo data, and figure-generation scripts supporting the safety-margin and time-to-collision (TTC) budget analysis for automated emergency braking (AEB) at 60-100 km/h.</p><p>Contents: detection-latency sweep over 60/80/100 km/h and braking build-up times; range-measurement-noise Monte Carlo (range-triggered and constant-velocity-triggered gaps); joint delay-noise two-dimensional Monte Carlo with 10 seeds per cell; road-surface sensitivity; association-gate half-width sweep; and the YOLOv8n frame-by-frame timing measurements on two road-video sequences.</p>",
+  "creators": [
+    {
+      "name": "Jing, Bocheng",
+      "affiliation": "College of Information, Liaoning University, Shenyang 110036, China"
+    },
+    {
+      "name": "Wang, Yifan",
+      "affiliation": "Comprehensive Experimental Center for Natural Sciences, Liaoning University, Shenyang 110036, China"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "automated emergency braking",
+    "perception latency",
+    "detection latency",
+    "time-to-collision",
+    "safety margin",
+    "range-measurement noise",
+    "Monte Carlo simulation",
+    "surrogate safety measures"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/MMoragan/aeb-radar-latency-safety-margin",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Simulation and analysis code supporting a manuscript submitted to the Journal of Transportation Safety & Security."
+}
